@@ -1,0 +1,47 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "startTheBrowser",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And close the browser",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given start the browser",
+      "type": "TestStepFail",
+      "duration": 3108,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Not Yet Implemented!...",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And close the browser",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.NotYetImplementedException: Not Yet Implemented!...\r\n\tat .Given start the browser(Resources/FeatureFiles/sample.feature:10)\r\n"
+}

@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch_and_close"
+        ],
+        "lineNo": 9,
+        "name": "first one",
+        "referece": "Resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOne",
+        "sign": "Resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1655589880776,
+      "duration": 91,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

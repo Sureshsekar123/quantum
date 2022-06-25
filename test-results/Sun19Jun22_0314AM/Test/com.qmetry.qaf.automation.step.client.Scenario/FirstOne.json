@@ -1,0 +1,23 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Given start the browser",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given start the browser :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Given start the browser@Resources/FeatureFiles/sample.feature#5 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Given start the browser(Resources/FeatureFiles/sample.feature:5)\r\n"
+}

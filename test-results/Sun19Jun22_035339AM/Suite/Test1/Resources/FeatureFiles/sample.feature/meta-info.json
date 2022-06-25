@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch_google_and_youtube"
+        ],
+        "lineNo": 9,
+        "name": "first one",
+        "reference": "Resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOne",
+        "sign": "Resources.FeatureFiles.sample.feature.first one()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1655591013440,
+      "duration": 8725,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

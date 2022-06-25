@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Suite">
+  <test name="Test">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("first one")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="scenario.file.loc" value="Resources/FeatureFiles/sample.feature"/>
+    <parameter name="step.provider.pkg" value="main.java.BDD.quantum"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

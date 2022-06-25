@@ -1,0 +1,41 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "startthebroesereithgoogle",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "changetoyoutube",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given start the browser with google",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4074,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And change to youtube",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5105,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,22 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "startTheBrowser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given start the browser",
+      "type": "TestStepPass",
+      "duration": 5528,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}
