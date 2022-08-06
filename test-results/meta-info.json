@@ -2,6 +2,11 @@
   "reports": [
     {
       "name": "Suite",
+      "dir": "test-results/06_Aug_2022_03_13_PM/json",
+      "startTime": 1659798818475
+    },
+    {
+      "name": "Suite",
       "dir": "test-results/06_Aug_2022_03_01_PM/json",
       "startTime": 1659798075958
     },
