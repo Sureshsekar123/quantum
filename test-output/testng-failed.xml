@@ -2,8 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="10" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test parallel="tests" name="Test(failed)">
-    <parameter name="scenario.file.loc" value="Resources/FeatureFiles/sample.feature"/>
-    <parameter name="step.provider.pkg" value="main.java.BDD.quantum"/>
     <groups>
       <run>
         <include name="@launch"/>

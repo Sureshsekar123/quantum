@@ -1,0 +1,36 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14-RC1",
+      "qaf-Build-Time": "01-Apr-2018 21:59:38",
+      "qaf-Version": "2.1"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "resources/FeatureFiles/sample.feature",
+      "baseurl": "http://10.12.40.220/",
+      "step.provider.pkg": "main.java.BDD.quantum"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "11.0.15.1",
+      "os.arch": "amd64",
+      "host": "Suresh",
+      "os.name": "Windows 11",
+      "user.name": "91875",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1656230532346,
+  "endTime": 1656230532378
+}

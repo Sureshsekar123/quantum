@@ -143,8 +143,11 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;scenario.file.loc&quot; value=&quot;Resources/FeatureFiles/sample.feature&quot;/&gt;
-    &lt;parameter name=&quot;step.provider.pkg&quot; value=&quot;main.java.BDD.quantum&quot;/&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;0&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;@launch&quot;/&gt;
@@ -203,12 +206,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'first one')
 data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
-data.setCell(0, 3, 5638);
+data.setCell(0, 3, 6899);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -219,12 +222,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">first one</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given start the browser</div></div></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -242,36 +239,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">setupSuit(org.testng.TestRunner@6821ea29)</span>
+                <span class="method-name">setupSuit(org.testng.TestRunner@2262b621)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">setupTest(org.testng.TestRunner@6821ea29)</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-name">setupTest(org.testng.TestRunner@2262b621)</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setup(org.testng.TestRunner@6821ea29)</span>
-                <span class="method-start">37 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@2262b621)</span>
+                <span class="method-start">34 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@6821ea2...)</span>
-                <span class="method-start">44 ms</span>
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@2262b62...)</span>
+                <span class="method-start">40 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">first one</span>
-                <span class="method-start">45 ms</span>
+                <span class="method-start">41 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@6821ea29, [TestResult name=first one status=SUCCESS method=Resources.FeatureFi...)</span>
-                <span class="method-start">5709 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@2262b621, [TestResult name=first one status=SUCCESS method=resources.FeatureFi...)</span>
+                <span class="method-start">6955 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">afterClass(org.testng.TestRunner@6821ea29)</span>
-                <span class="method-start">5710 ms</span>
+                <span class="method-name">afterClass(org.testng.TestRunner@2262b621)</span>
+                <span class="method-start">6956 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
-                <span class="method-name">afterTest(org.testng.TestRunner@6821ea29)</span>
-                <span class="method-start">5712 ms</span>
+                <span class="method-name">afterTest(org.testng.TestRunner@2262b621)</span>
+                <span class="method-start">6959 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

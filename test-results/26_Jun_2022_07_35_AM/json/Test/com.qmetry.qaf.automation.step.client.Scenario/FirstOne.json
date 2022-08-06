@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "startTheBrowser",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given start the browser",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 2825,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "session not created: This version of ChromeDriver only supports Chrome version 104\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'SURESH', ip: '192.168.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x010BAF23+2207523]\n\tOrdinal0 [0x010530E1+1781985]\n\tOrdinal0 [0x00F63FE8+802792]\n\tOrdinal0 [0x00F85AD3+940755]\n\tOrdinal0 [0x00F811EF+922095]\n\tOrdinal0 [0x00F7E9D1+911825]\n\tOrdinal0 [0x00FB2200+1122816]\n\tOrdinal0 [0x00FB1E5A+1121882]\n\tOrdinal0 [0x00FAD406+1102854]\n\tOrdinal0 [0x00F875F0+947696]\n\tOrdinal0 [0x00F884E6+951526]\n\tGetHandleVerifier [0x01362A12+2733954]\n\tGetHandleVerifier [0x01354E28+2677656]\n\tGetHandleVerifier [0x011446EA+513114]\n\tGetHandleVerifier [0x01143796+509190]\n\tOrdinal0 [0x01059CEB+1809643]\n\tOrdinal0 [0x0105E448+1827912]\n\tOrdinal0 [0x0105E535+1828149]\n\tOrdinal0 [0x01067960+1866080]\n\tBaseThreadInitThunk [0x75DB6739+25]\n\tRtlGetFullPathName_UEx [0x76FB8AFF+1215]\n\tRtlGetFullPathName_UEx [0x76FB8ACD+1165]\n",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 104\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'SURESH', ip: '192.168.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x010BAF23+2207523]\n\tOrdinal0 [0x010530E1+1781985]\n\tOrdinal0 [0x00F63FE8+802792]\n\tOrdinal0 [0x00F85AD3+940755]\n\tOrdinal0 [0x00F811EF+922095]\n\tOrdinal0 [0x00F7E9D1+911825]\n\tOrdinal0 [0x00FB2200+1122816]\n\tOrdinal0 [0x00FB1E5A+1121882]\n\tOrdinal0 [0x00FAD406+1102854]\n\tOrdinal0 [0x00F875F0+947696]\n\tOrdinal0 [0x00F884E6+951526]\n\tGetHandleVerifier [0x01362A12+2733954]\n\tGetHandleVerifier [0x01354E28+2677656]\n\tGetHandleVerifier [0x011446EA+513114]\n\tGetHandleVerifier [0x01143796+509190]\n\tOrdinal0 [0x01059CEB+1809643]\n\tOrdinal0 [0x0105E448+1827912]\n\tOrdinal0 [0x0105E535+1828149]\n\tOrdinal0 [0x01067960+1866080]\n\tBaseThreadInitThunk [0x75DB6739+25]\n\tRtlGetFullPathName_UEx [0x76FB8AFF+1215]\n\tRtlGetFullPathName_UEx [0x76FB8ACD+1165]\n\r\n\tat .Given start the browser(Resources/FeatureFiles/sample.feature:5)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)\r\n\tat main.java.BDD.quantum.steps.startTheBrowser(steps.java:22)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n"
+}

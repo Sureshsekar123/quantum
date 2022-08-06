@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "resources/FeatureFiles/sample.feature"
+  ],
+  "envInfo": {
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "27-Feb-2022 14:37:01",
+      "qaf-Version": "3.1"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "resources/FeatureFiles/sample.feature",
+      "baseurl": "http://10.12.40.220/",
+      "step.provider.pkg": "main.java.BDD.quantum"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "11.0.15.1",
+      "os.arch": "amd64",
+      "host": "Suresh",
+      "os.name": "Windows 11",
+      "user.name": "91875",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1656232055402,
+  "endTime": 1656232060613
+}

@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch"
+        ],
+        "lineNo": 4.0,
+        "name": "first one",
+        "referece": "resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOne",
+        "sign": "resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1656230733217,
+      "duration": 6857,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch"
+        ],
+        "lineNo": 4,
+        "name": "first one",
+        "referece": "resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOnepaLkTudiOp",
+        "sign": "resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1656231026965,
+      "duration": 4907,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,52 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given start the browser</div></div>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-06-25T17:18:38Z" name="Suite" finished-at="2022-06-25T17:18:44Z" duration-ms="5688">
+  <suite started-at="2022-08-06T15:02:52Z" name="Suite" finished-at="2022-08-06T15:02:59Z" duration-ms="6937">
     <groups>
       <group name="@launch">
-        <method signature="Resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="first one" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="first one" class="com.qmetry.qaf.automation.step.client.Scenario"/>
       </group> <!-- @launch -->
     </groups>
-    <test started-at="2022-06-25T17:18:38Z" name="Test" finished-at="2022-06-25T17:18:44Z" duration-ms="5688">
+    <test started-at="2022-08-06T15:02:52Z" name="Test" finished-at="2022-08-06T15:02:59Z" duration-ms="6937">
       <class name="com.qmetry.qaf.automation.step.client.Scenario">
-        <test-method is-config="true" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-06-25T22:48:38Z" name="setupSuit" test-instance-name="first one" finished-at="2022-06-25T22:48:38Z" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-08-06T20:32:52Z" name="setupSuit" test-instance-name="first one" finished-at="2022-08-06T20:32:52Z" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6821ea29]]>
+                <![CDATA[org.testng.TestRunner@2262b621]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuit -->
-        <test-method is-config="true" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-06-25T22:48:38Z" name="setupTest" test-instance-name="first one" finished-at="2022-06-25T22:48:38Z" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-08-06T20:32:52Z" name="setupTest" test-instance-name="first one" finished-at="2022-08-06T20:32:52Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6821ea29]]>
+                <![CDATA[org.testng.TestRunner@2262b621]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-06-25T22:48:38Z" name="setup" test-instance-name="first one" finished-at="2022-06-25T22:48:38Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-08-06T20:32:52Z" name="setup" test-instance-name="first one" finished-at="2022-08-06T20:32:52Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6821ea29]]>
+                <![CDATA[org.testng.TestRunner@2262b621]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-06-25T22:48:38Z" name="setupMethod" test-instance-name="first one" finished-at="2022-06-25T22:48:38Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-08-06T20:32:52Z" name="setupMethod" test-instance-name="first one" finished-at="2022-08-06T20:32:52Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,52 +52,49 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@6821ea29]]>
+                <![CDATA[org.testng.TestRunner@2262b621]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-06-25T22:48:38Z" name="first one" test-instance-name="first one" finished-at="2022-06-25T22:48:44Z" duration-ms="5638" status="PASS">
+        <test-method signature="first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-08-06T20:32:52Z" name="first one" test-instance-name="first one" finished-at="2022-08-06T20:32:59Z" duration-ms="6899" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given start the browser</div></div>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- first one -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-06-25T22:48:44Z" name="afterMethod" test-instance-name="first one" finished-at="2022-06-25T22:48:44Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-08-06T20:32:59Z" name="afterMethod" test-instance-name="first one" finished-at="2022-08-06T20:32:59Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6821ea29]]>
+                <![CDATA[org.testng.TestRunner@2262b621]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=first one status=SUCCESS method=Resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given start the browser</div></div>]]]>
+                <![CDATA[[TestResult name=first one status=SUCCESS method=resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-06-25T22:48:44Z" name="afterClass" test-instance-name="first one" finished-at="2022-06-25T22:48:44Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-08-06T20:32:59Z" name="afterClass" test-instance-name="first one" finished-at="2022-08-06T20:32:59Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6821ea29]]>
+                <![CDATA[org.testng.TestRunner@2262b621]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-06-25T22:48:44Z" name="afterTest" test-instance-name="first one" finished-at="2022-06-25T22:48:44Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2022-08-06T20:32:59Z" name="afterTest" test-instance-name="first one" finished-at="2022-08-06T20:32:59Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6821ea29]]>
+                <![CDATA[org.testng.TestRunner@2262b621]]>
               </value>
             </param>
           </params>

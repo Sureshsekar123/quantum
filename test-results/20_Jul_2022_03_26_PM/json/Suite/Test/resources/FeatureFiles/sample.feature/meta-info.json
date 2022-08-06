@@ -1,0 +1,119 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch"
+        ],
+        "lineNo": 4.0,
+        "name": "first one",
+        "reference": "resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOne",
+        "sign": "resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658330805294,
+      "duration": 343,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch"
+        ],
+        "lineNo": 4.0,
+        "name": "first one",
+        "reference": "resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOne1",
+        "sign": "resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658331320321,
+      "duration": 436,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch"
+        ],
+        "lineNo": 4.0,
+        "name": "first one",
+        "reference": "resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOne1",
+        "sign": "resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658331340541,
+      "duration": 387,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch"
+        ],
+        "lineNo": 4.0,
+        "name": "first one",
+        "reference": "resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOne1",
+        "sign": "resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658331791989,
+      "duration": 4400,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@launch"
+        ],
+        "lineNo": 4,
+        "name": "first one",
+        "reference": "resources/FeatureFiles/sample.feature",
+        "resultFileName": "FirstOne1",
+        "sign": "resources.FeatureFiles.sample.feature.first one()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658331856480,
+      "duration": 547,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}
